@@ -1,0 +1,5 @@
+<web-app>
+    <servlet>
+        <servlet-name>nl.waarisdetrein.api.push.WidtPushApplication</servlet-name>
+    </servlet>
+</web-app>
