@@ -29,7 +29,7 @@ public class PostNotificationCommand extends HystrixCommand<Boolean> {
     @Override
     protected Boolean run() throws Exception {
         MultivaluedHashMap<String, String> params = new MultivaluedHashMap<String, String>();
-        params.put("token", Arrays.asList("GUjFheDzQin1PiEJqoV8JFcOvAQ2Se"));
+        params.put("token", Arrays.asList("<TOKEN>"));
         params.put("user", Arrays.asList(user));
         params.put("message", Arrays.asList(message));
         Client c = ClientBuilder.newClient();
